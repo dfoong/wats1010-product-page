@@ -1,54 +1,188 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Add proper head tag to provide a page description for search
-             engines. -->
-        <title>API Superstore</title>
-        <!-- Bootstrap CSS Framework -->
-        <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
 
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
-        <!-- End Bootstrap CSS Framework -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="API Superstore: All the APIs, all the time">
+  <title>API Superstore</title>
+  <!-- Bootstrap CSS Framework -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <!-- End Bootstrap CSS Framework -->
 
-        <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
+  <!-- TODO: replace, apple-touch-icon, and tile images to best
              support bookmarking. -->
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="favicon" href="favicon.ico">
+  <link rel="shortcut icon" href="tile.png" type="image/x-icon">
+  <link rel="shortcut icon" href="api_favicon.png" type="image/x-icon">
 
-    </head>
-    <body>
-        <!-- Note: If you do not see a lamp icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how Bootstrap is linked to this page. -->
-        <h1><span class="glyphicon glyphicon-lamp"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
+</head>
 
-        <!-- TODO: Create an area to put the explainer video. -->
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="index.html">
+        <img src="/assets/logos/api_superstore_sqlogo_by.png" class="img-fluid" alt="Responsive image" width="7%"></a>
 
-        <!-- TODO: Create an area to put the long product description. -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#intro">Introduction<span class="sr-only">(current)</span></a></li>
+            <li><a href="#list">List</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#buy">Buy</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <div class="container">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe width="60%" height="250" src="https://www.youtube-nocookie.com/embed/L48g1ZWLMdo" frameborder="0" border="0" cellspacing="0" style="border-style: none; allowfullscreen"></iframe>
+    </div>
+    <div id="intro">
+      <h2>
+        All the APIs, all the time!
+      </h2>
+      <p>
+        The API Superstore provides a catalog of third-party APIs that you can use to enhance your business. From e-commerce to maps, API Superstore lists all of the services that customers expect and saves you the headache of sorting it out yourself! The longer
+        you wait, the longer you're not making more money and happier users!
+      </p>
+    </div>
+      <div id="list">
+        <ul>
+          <h3>
+            Features
+          </h3>
+          <li>Links to the best APIs<span class="sr-only"></span></a>
+          </li>
+          <li>Convenient catalog<span class="sr-only"></span></a>
+          </li>
+          <li>Elegant shopping experience<span class="sr-only"></span></a>
+          </li>
+          <li>Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade<span class="sr-only"></span></a>
+          </li>
+        </ul>
+      </div>
+    <div id="customerphoto">
+      <img class="img-circle" src="\assets\clara3.jpg">
+    </div>
+    <div id="testimonials">
+      <h3>
+        Testimonials
+      </h3>
+      <p>
+        "Once again, I’m blown away by the amazing offerings of the API Superstore. You really are SUPER!"
+      </p>
+      <p>
+        Clara Cache
+      </p>
+      <p>
+        <i>Social Media Consultant</i>
+      </p>
+    </div>
+    <div id="testimonials-triangle"></div>
 
-        <!-- TODO: Create an area to put customer testimonials. -->
+    <div id="buy">
+      <h3>
+        PRICING
+      </h3>
+      <h2>
+        $99
+      </h2>
+      <p>
+        only
+      </p>
+      <a href="#buy">
+    <img src="/assets/buybutton.png" class="img-fluid" alt="Responsive image" width="20%"></a>
+          <div id="api-type">
+          <ul>
+          <li>API 1<span class="sr-only"></span></a>
+          </li>
+          <li>API 2<span class="sr-only"></span></a>
+          </li>
+          <li>API 3<span class="sr-only"></span></a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    <div id="map">
+      <img src="/assets/mapsea.PNG" class="img-fluid" alt="Responsive image" width="50%">
+      <div id="map-icons">
+        <img src="/assets/map.png" class="img-fluid" alt="Responsive image" width="8%">
+        <p>
+          Seattle, WA
+        </p>
+        <img src="/assets/email.png" class="img-fluid" alt="Responsive image" width="8%">
+        <p>
+          info@apisuperstore.com 
+        </p>
+        <img src="/assets/phoneicon.png" class="img-fluid" alt="Responsive image" width="5%">
+        <p>
+          206-555-1234
+        </p>
+      </div>
+</div>
+  <div id="contact">
+    <h3>
+      TALK TO US
+    </h3>
+    <p>
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+      nisi ut aliquip ex ea commodo consequat.<br>
+      <br>
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+      non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."<br>
+<br>
+      <img src="/assets/sendbutton.png" class="img-fluid" alt="Responsive image" width="30%"></a>
+    </p>
+</div>
+<!-- footer below!! -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="index.html">
+        <img src="/assets/logos/api_superstore_sqlogo_by.png" class="img-fluid" alt="Responsive image" width="7%"></a>
 
-        <!-- TODO: Create an area to show features. -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://facebook.com"><img src="/assets/logos/fb_social.png" class="img-fluid" alt="Responsive image" width="10%"><span class="sr-only"></span></a></li>
+            <li><a href="http://linkedin.com"><img src="/assets/logos/lk_social.png" class="img-fluid" alt="Responsive image" width="10%"><span class="sr-only"></span></a></li>
+            <li><a href="http://pinterest.com"><img src="/assets/logos/pin_social.png" class="img-fluid" alt="Responsive image" width="10%"><span class="sr-only"></span></a></li>
+            <li><a href="http://twitter.com"><img src="/assets/logos/twit_social.png" class="img-fluid" alt="Responsive image" width="10%"><span class="sr-only"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
 
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
+</body>
 
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
-
-        <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
-    </body>
 </html>
