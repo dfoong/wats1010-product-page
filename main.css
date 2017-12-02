@@ -2,7 +2,151 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+  background-color: #fdb813;
 }
+
+.navbar-header {
+  background-color: #012847;
+}
+
+a:hover {
+  color: red;
+}
+
+#intro {
+  background-color: #fdb813;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  color: #00245d;
+  padding: 30px 60px 30px 60px;
+}
+
+#list {
+  background-color: #6e8898;
+  color: #FFF;
+  padding: 30px 10px 30px 10px;
+  width: 100%;
+  height: 40%;
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -khtml-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+}
+
+#testimonials {
+  background-color: #2e5266;
+  color: #FFF;
+  padding: 30px 20px 30px 20px;
+  margin: 40px 40px 40px 230px;
+  width: 50%;
+  height: 40%;
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -khtml-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+
+}
+
+#testimonials-triangle {
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 30px solid #2e5266;
+  margin: -230px 750px 30px 200px;
+
+}
+
+#customerphoto img {
+  width: 160px;
+  border-radius: 50%;
+  margin: 60px 30px 50px 30px;
+  float: left;
+  -moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -khtml-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+}
+
+#buy h3 {
+  background-color: #012847;
+  color: #FFF;
+  width: 100%;
+  height: 80px;
+  padding: 25px 0px 40px 0px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+#buy {
+  background-color: #FFF;
+  width: 100%;
+  height: 450px;
+}
+
+#buy h2 {
+  font-size: 6em;
+  color: #00a1e4;
+  /*margin: 80px 0px 0px 150px;*/
+  margin-top: 6%;
+  margin-left: 17%;
+}
+
+#buy p {
+  font-size: 2em;
+  color: #00a1e4;
+  margin-left: 21%;
+}
+
+#buy img {
+  margin-left: 16%;
+}
+
+#api-type {
+  width: 30%;
+  float: right;
+  margin-top: -140px;
+  margin-right: 20%;
+}
+
+#api-type ul li {
+  background-color: #00a1e4;
+  width: 80%;
+  text-align: center;
+  font-size: 1.5em;
+  color: #FFF;
+  list-style-type: none;
+  line-height: 3em;
+  /*margin-left: 65%;*/
+  margin: 10px;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  /*border: solid 3px black;*/
+}
+
+#map-icons {
+  width: 50%;
+  float: right;
+  font-size: 1em;
+  color: #2e5266;
+  padding: 40px;
+  margin-top: -250px;
+  margin-left: 40%;
+}
+
+#contact {
+  width: 100%;
+  height: 50%;
+  padding: 20px;
+}
+
+#contact h3, #contact p {
+  margin-left: 55%;
+}
+  
