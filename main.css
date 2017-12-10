@@ -25,7 +25,7 @@ a:hover {
 #list {
   background-color: #6e8898;
   color: #FFF;
-  padding: 30px 10px 30px 10px;
+  padding: 10px 10px 30px 20px;
   width: 100%;
   height: 40%;
   -moz-border-radius: 10px;
@@ -70,6 +70,27 @@ a:hover {
   -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
 }
 
+.btn-grad {
+  width: 20%;
+  color: #FFF;
+  margin: 15px 15px 15px 100px;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%)
+}
+
+.btn-grad:hover { 
+  
+  background-position: right center; 
+}
+
 #buy h3 {
   background-color: #012847;
   color: #FFF;
@@ -89,7 +110,6 @@ a:hover {
 #buy h2 {
   font-size: 6em;
   color: #00a1e4;
-  /*margin: 80px 0px 0px 150px;*/
   margin-top: 6%;
   margin-left: 17%;
 }
@@ -100,27 +120,32 @@ a:hover {
   margin-left: 21%;
 }
 
-#buy img {
-  margin-left: 16%;
+.btn-grad2 {
+  margin: 15px;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)
+}
+
+.btn-grad2:hover { 
+  background-position: right center; 
 }
 
 #api-type {
   width: 30%;
   float: right;
-  margin-top: -140px;
-  margin-right: 20%;
-}
-
-#api-type ul li {
-  background-color: #00a1e4;
-  width: 80%;
   text-align: center;
   font-size: 1.5em;
   color: #FFF;
-  list-style-type: none;
-  line-height: 3em;
-  /*margin-left: 65%;*/
-  margin: 10px;
+  margin-top: -300px;
+  margin-right: 20%;
 }
 
 #map {
@@ -166,5 +191,6 @@ a:hover {
 .monBouton:before{
      background-image : url(http://icons.iconarchive.com/icons/fatcow/farm-fresh/16/accept-icon.png);
 }
+
 
 
