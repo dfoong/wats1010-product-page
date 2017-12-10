@@ -151,8 +151,12 @@ a:hover {
 #map {
   width: 100%;
   height: 100%;
-  padding: 30px;
+  padding: 50px 30px 30px 30px;
   /*border: solid 3px black;*/
+}
+
+#map img {
+  width: 45%
 }
 
 #map-icons {
@@ -160,9 +164,12 @@ a:hover {
   float: right;
   font-size: 1em;
   color: #2e5266;
-  padding: 40px;
   margin-top: -250px;
-  margin-left: 40%;
+  margin-left: 20%;
+}
+
+#map-icons img {
+  width: 10%;
 }
 
 #contact {
@@ -177,7 +184,6 @@ a:hover {
 }
   
 .bouton-image:before {
-    content: "";
     width: 16px;
     height: 16px;
     display: inline-block;
@@ -192,5 +198,7 @@ a:hover {
      background-image : url(http://icons.iconarchive.com/icons/fatcow/farm-fresh/16/accept-icon.png);
 }
 
-
+.social-pics img {
+  width: 10%;
+}
 
